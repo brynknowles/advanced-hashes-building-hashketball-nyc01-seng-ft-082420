@@ -2,9 +2,9 @@
 require 'pry'
 
 def game_hash
-  binding.pry
   {
     home: {
+      binding.pry
       team_name: "Brooklyn Nets", 
       colors: ["Black", "White"],
       players: [
